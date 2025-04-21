@@ -1,0 +1,35 @@
+{
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/296a26fe-375a-4983-a2d7-eeefe55dadd2_2025-04-16.json%0A": [
+        "WMT",
+        "NVDA",
+        "GOOG"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/1b84cb31-2f51-46ea-8dce-07e910bfce68_2025-04-16.json%0A": [
+        "AMZN",
+        "PPC"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/1db3d632-2685-4b8e-9010-4ca4d38196e2_2025-04-16.json%0A": [
+        "KO"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/eda16fa9-25dd-4f74-abd1-04f33efe2884_2025-04-16.json%0A": [
+        "T"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/114621c5-c8f3-4cce-93e1-b8fd04555171_2025-04-16.json%0A": [
+        "PM"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/fe75536a-e1db-4abf-9847-42f399c02e9c_2025-04-16.json%0A": [
+        "VZ"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/211b9f75-7e51-4f4d-b1ad-bf13c2d9824c_2025-04-16.json%0A": [
+        "CNA"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/45fa415c-7a33-4417-8dac-57ac7bb49dfb_2025-04-16.json%0A": [
+        "OHI"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/4f392050-da18-444e-a89c-5c2ebf0b3b3d_2025-04-16.json%0A": [
+        "TDG"
+    ],
+    "https://wt-s3-prod.s3.us-east-1.amazonaws.com/marketplace/json/4eec16cf-ed5c-40d7-8692-d107a0f23775_2025-04-16.json%0A": [
+        "ORI"
+    ]
+}

@@ -1,14 +1,19 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from gumloop import GumloopClient
 from typing import List, Dict, Any
 from pydantic import BaseModel
 import asyncio
 import json
-import sys
 import requests
 import logging
+import urllib3
+
+# Отключение предупреждений о непроверенных SSL-сертификатах
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 print("Loading main.py")
+
 # Инициализация FastAPI
 app = FastAPI(
     title="Gumloop Integration Service",
@@ -16,6 +21,14 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# Настройка CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://challenges.limex.com"],  # Разрешённые домены
+    allow_credentials=True,
+    allow_methods=["*"],  # Разрешённые HTTP-методы
+    allow_headers=["*"],  # Разрешённые заголовки
+)
 # Настройка логгера
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
